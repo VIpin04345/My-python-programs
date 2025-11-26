@@ -252,3 +252,145 @@ while i <= n:
         sum = sum + i
     i += 1
 print(sum)
+
+
+str='shubham yadav'
+print(str)
+
+str='shubham yadav'
+print(str[2])
+print(str[10])
+
+name='shubhamyadav'
+print(name[1:6])
+
+name='shubhamyadav'
+print(name[:-1])
+
+name='shubhamyyadav'
+print(name[5])
+
+name='shubhamyadav'
+# print(name[3:])
+
+
+this is shubham yadav
+from the varanashi
+he want to become a
+software engineer to make his career better
+he want to access all the apportunity which he want
+
+
+str1='hello world'
+str2='hello python'
+print(str1==str2)
+
+
+s='abcdef'
+t='abcdef'
+print(s==t)
+
+a='adadada'
+b='adadad'
+c='adadada'
+print(a==c)
+print(a==b)
+
+
+str1='hello world'
+str2='hello python'
+name=str1+str2
+print(name)
+
+
+a='py'
+b='th'
+c='on'
+d=a+b+c
+print(d)
+
+
+name='hello world'
+for o in name:
+    print(o)
+
+
+name='shubham yadav'
+print(len(name))
+
+
+str='hello world'
+print(len(str))
+
+
+name='Shubham yadav'
+print(name.upper())
+
+name='SHUBHAM YADAV'
+print(name.lower())
+
+str='shubham singh'
+print(str.replace('singh','yadav'))
+
+
+name='     shubham yadav      '
+print(name.strip())
+
+name='shUBhaM'
+print(name.capitalize())
+
+name='ShuBHam'
+print(name.casefold())
+
+
+name='shubham yadav computer science'
+print(name.title())
+
+
+name='shubham'
+name1='YADAV'
+print(name.isalpha())
+print(name1.isalpha())
+
+name='vipin8950'
+print(name.isalpha())
+
+name='shubham73737'
+name1='VIPIN63637'
+print(name.isalnum())
+print(name1.isalnum())
+
+str='4566'
+print(str.isalnum())
+
+
+str='shubham'
+print(str.isnumeric())
+
+
+str='2537585'
+print(str.isnumeric())
+
+name='SHUbham'
+print(name.isupper())
+
+
+name='SHUBHAM'
+print(name.isupper())
+
+str='shuBHam'
+print(str.islower())
+
+
+str='shubham'
+print(str.islower())
+
+
+str='shubham'
+print(str.count('h'))
+
+str='python is a popular programming language'
+print(str.count('p'))
+
+str='2345'
+print(str.isdecimal())
