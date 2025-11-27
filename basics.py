@@ -433,3 +433,21 @@ print(l1)
 
 
 
+n = int(input("enter your first number:-"))
+m = int(input("enter your second number:-"))
+print("before swapping", n, m)
+l = str(input("you are want to swap the value"))
+v = "yes"
+u = "no"
+if l == v:
+    n, m = m, n
+    print("after swapping", n, m)
+
+elif l == u:
+    print("okay as your wish")
+    n, m = n, m
+    print("without swapping", n, m)
+
+else:
+    print("invalid command")
+
