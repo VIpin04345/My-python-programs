@@ -451,3 +451,15 @@ elif l == u:
 else:
     print("invalid command")
 
+
+
+
+n = float(input("enter your marks in java:-"))
+o = float(input("enter your marks in pyton:-"))
+p = float(input("enter your marks in php:-"))
+q = float(input("enter your marks in django:-"))
+r = float(input("enter your marks in html:-"))
+s = float(input("enter your marks in css:-"))
+t = n + o + p + q + r + s
+print("total percentage is ", t / 600 * 100)
+
