@@ -398,3 +398,38 @@ print(str.isdecimal())
 str="shubham"
 for i in str:
     print(i+&)
+
+
+
+#   LIST   #
+
+
+l1=['radha','krishna','ujala']
+print(l1)
+
+l1=['1','2','3','4']
+for i in range(len(l1)):
+    print(l1[i])
+
+
+l2=['shubham','yadav','cse','3rd year']
+for i in range(len(l2)):
+    print(l2[i])
+
+
+a=['1','2','3','4','5','6']
+for j in range(len(a)):
+    print(a[j])
+
+
+l1=[1,2,3,4,5,6,]
+del l1[2]
+print(l1)
+
+l1=[1,2,3,4,5,6]
+l1.remove(3)
+print(l1)
+
+
+
+
