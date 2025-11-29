@@ -560,3 +560,18 @@ print(rev)
 
 
 
+ # write a program to find sum of even digit and prod of odd digit of a given number.
+ 
+ 
+n=int(input('enter a number'))
+sum=0
+prod=1
+while n>0:
+    digit=n%10
+    if n%2==0:
+        sum+=digit
+    else:
+        prod*=digit
+    n//=10
+print(sum,prod)
+
