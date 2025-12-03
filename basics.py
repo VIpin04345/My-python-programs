@@ -618,3 +618,18 @@ def rev(s):
         rev=i+rev
     return rev
 print(rev('shubham'))
+
+# Function to check if string is palindrome.
+
+def palin(p):
+    rev=0
+    x=p
+    while p>0:
+        digit=p%10
+        rev=rev*10+digit
+        p//=10
+    if x==rev:
+        print('palin')
+    else:
+        print('not')
+palin(123219)
