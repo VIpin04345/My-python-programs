@@ -608,3 +608,13 @@ def fact(n):
         n-=1
     return facct
 print(fact(5))
+
+
+# Function to reverse a string.
+
+def rev(s):
+    rev=''
+    for i in s:
+        rev=i+rev
+    return rev
+print(rev('shubham'))
