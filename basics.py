@@ -633,3 +633,19 @@ def palin(p):
     else:
         print('not')
 palin(123219)
+
+# Function to count vowels in a string.
+str='shubhamOU'
+count=0
+for i in str:
+    if  i in 'a e i o u A E I O U':
+        count+=1
+print('vowels is', count)
+
+def vowels(str):
+    count=0
+    for i in str:
+        if i in 'a e i o u  A E I O U':
+            count+=1
+    return count
+print(vowels('shubhamUU'))
