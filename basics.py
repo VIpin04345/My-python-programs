@@ -663,5 +663,14 @@ def max_number(a, b, c):
     else:
         print(c, "is max")
 
-
 max_number(60, 50, 40)
+
+
+str='aabbbbcdddrreeeggg'
+freq={}
+for i in str:
+    if i not in freq:
+        freq[i]=1
+    else:
+        freq[i]+=1
+print(freq)  
