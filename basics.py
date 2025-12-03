@@ -591,3 +591,20 @@ if temp==sum:
     print ('arm')
 else:
     print('not arm')
+
+
+# Function to find square of a number.
+
+def sqaure(n):
+    s=n**2
+    print(s)
+sqaure(9)
+
+# Function to find factorial of a number.
+def fact(n):
+    facct=1
+    while n>0:
+        facct*=n
+        n-=1
+    return facct
+print(fact(5))
