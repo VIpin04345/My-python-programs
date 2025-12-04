@@ -738,3 +738,15 @@ d = dict(z)
 print(d)
 print(d[103])
 
+
+
+
+# taking input from user(key , value)
+
+a = {}
+n = int(input("enter total number of element:-"))
+for i in range(n):
+    k = input("enter key")
+    v = input("enter value")
+    a.update({k: v})
+print(a)
