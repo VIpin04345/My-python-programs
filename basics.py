@@ -685,3 +685,41 @@ print(fees["shubham"])
 for o in fees:
     print(o)
 
+
+
+
+
+
+# modification of dictionary.........
+
+
+k = {101: "rahul", 102: "anuj", 103: "akash"}
+k[103] = "vishal"
+print(k[103])
+print(k)
+
+
+k = {1: "ram", 2: "lakshman", 3: "bharat"}
+k[104] = "satrughn"
+print(k[104])
+
+
+k = {1: "ram", 2: "bharat", 3: "vishal"}
+del k[3]
+print(k)
+
+
+k = {1: "r", 2: "s", 3: "f"}
+k.clear()
+print(k)
+
+
+k = {1: "a", 2: "b", 3: "c"}
+k.copy()
+print(k)
+
+
+k = {1: "a", 2: "b", 3: "c", 4: "d"}
+k.popitem()
+print(k)
+
