@@ -771,3 +771,57 @@ from random import choice
 l1=[1,2,3,4,5,6,7]
 print(choice(l1))
 
+
+
+
+
+
+2> (randint())
+from random import randint
+otp=randint(1324,9786)
+print(otp)
+
+
+# 3> (suffle())
+
+# from random import shuffle
+# l1=['apple','banana','grapes','guvava']
+# shuffle(l1)
+# print(l1)
+
+
+
+
+#       MATH MODULE
+
+
+# import math model
+#  import math
+# from math import function name
+
+# how to use math module
+
+# 1> (factorial())
+
+
+# import math 
+# print(math.factorial(4))
+
+
+# 2> (ceil())
+
+# import math
+# print(math.ceil(4.56))
+
+
+# 3> (floor())
+
+# import math
+# print(math.floor(3.2)) 
+
+# 4> (sqrt())
+
+# import math
+# print(math.sqrt(10))
+
+
