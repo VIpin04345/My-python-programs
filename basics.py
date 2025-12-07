@@ -795,9 +795,9 @@ print(l1)
 #       MATH MODULE
 
 
-# import math model
-#  import math
-# from math import function name
+import math model
+ import math
+from math import function name
 
 # how to use math module
 
