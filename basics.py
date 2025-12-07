@@ -804,8 +804,8 @@ from math import function name
 # 1> (factorial())
 
 
-# import math 
-# print(math.factorial(4))
+import math 
+print(math.factorial(4))
 
 
 # 2> (ceil())
