@@ -750,3 +750,24 @@ for i in range(n):
     v = input("enter value")
     a.update({k: v})
 print(a)
+
+
+
+RANDOM MODULE 
+
+import random model
+from random import function name
+or
+import random
+
+
+
+how to use random model.......
+
+
+
+1> choice()
+from random import choice
+l1=[1,2,3,4,5,6,7]
+print(choice(l1))
+
