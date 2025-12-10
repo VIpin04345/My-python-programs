@@ -871,15 +871,15 @@ print('bye')
 
 
 #     SINGLE EXCEPTION HANDLING
-# try:
+try:
     
-#   a=int(input('enter the value of A:'))
-#   b=int(input('enter the value of B:'))
-#   c=a/b      # axeception occure on runtime devisor by 0
-#   print('answer',c)
-# except Exception as e:
-#   print("exception caught:", e)
-# print('bye')
+  a=int(input('enter the value of A:'))
+  b=int(input('enter the value of B:'))
+  c=a/b      # axeception occure on runtime devisor by 0
+  print('answer',c)
+except Exception as e:
+  print("exception caught:", e)
+print('bye')
 
 
 #     MANY EXCEPTION HANDLING
