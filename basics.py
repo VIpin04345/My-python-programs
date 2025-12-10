@@ -894,12 +894,13 @@ except:
 
 #   HOE TO USE ELSE WITH EXCEPTION PART
 
-# try:
-#     print('hello')
-# except :
-#     print('something went wrong')
-# else:
-#     print('nothing went wrong')    
+
+try:
+    print('hello')
+except :
+    print('something went wrong')
+else:
+    print('nothing went wrong')    
 
 
 #   FINALLY BLOCK
