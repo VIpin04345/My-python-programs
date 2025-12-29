@@ -926,11 +926,10 @@ finally:
 
 # USER DEFINE EXCEPTION
 
+class MyException(Exception):
+    pass
 
-# class MyException(Exception):
-#     pass
-
-# c=25
-# if c>5:
-#     raise MyException('something went wrong')
+c=25
+if c>5:
+    raise MyException('something went wrong')
 
