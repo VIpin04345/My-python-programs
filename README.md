@@ -24,3 +24,11 @@ Perfect for:
 * Freshers 👩‍💻
 
 * Anyone preparing for coding interviews 🚀
+
+# ⚙️ Requirements
+
+* Python 3.8+
+* Any code editor
+* VS Code
+* PyCharm
+* Notepad++
