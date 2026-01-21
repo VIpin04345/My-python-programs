@@ -7,6 +7,7 @@ sum=num1+num2
 print('the sum of given number is',sum)
    
 
+
 # (solution with user input)
 
 num=float(input('enter a number '))
