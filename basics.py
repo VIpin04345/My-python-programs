@@ -984,7 +984,7 @@ print(binary_search_rec(arr, 0, len(arr)-1, 15))
 
 
 
-4️⃣ Jump Search (Intermediate)
+# 4️⃣ Jump Search (Intermediate)
 import math
 
 def jump_search(arr, key):
