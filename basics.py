@@ -1005,7 +1005,7 @@ def jump_search(arr, key):
 
 
 
-5️⃣ Interpolation Search
+# 5️⃣ Interpolation Search
 def interpolation_search(arr, key):
     low, high = 0, len(arr)-1
 
