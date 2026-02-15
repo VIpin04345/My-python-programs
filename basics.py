@@ -945,3 +945,22 @@ def linear_search(arr, key):
 
 arr = [10, 20, 30, 40, 50]
 print(linear_search(arr, 30))
+
+
+
+2️⃣ Binary Search (Sorted Array)
+def binary_search(arr, key):
+    low, high = 0, len(arr)-1
+
+    while low <= high:
+        mid = (low + high) // 2
+        if arr[mid] == key:
+            return mid
+        elif arr[mid] < key:
+            low = mid + 1
+        else:
+            high = mid - 1
+    return -1
+
+arr = [10, 20, 30, 40, 50]
+print(binary_search(arr, 40))
