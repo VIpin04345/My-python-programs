@@ -1023,8 +1023,8 @@ def interpolation_search(arr, key):
 
 
 
-# 🔄 Sorting Algorithms (5 Programs)
-# 1️⃣ Bubble Sort (Basic)
+🔄 Sorting Algorithms (5 Programs)
+1️⃣ Bubble Sort (Basic)
 def bubble_sort(arr):
     n = len(arr)
     for i in range(n):
@@ -1033,7 +1033,7 @@ def bubble_sort(arr):
                 arr[j], arr[j+1] = arr[j+1], arr[j]
     return arr
 
-# print(bubble_sort([5,3,8,1]))
+print(bubble_sort([5,3,8,1]))
 
 # 2️⃣ Selection Sort
 # def selection_sort(arr):
