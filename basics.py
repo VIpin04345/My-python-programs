@@ -1036,14 +1036,14 @@ def bubble_sort(arr):
 print(bubble_sort([5,3,8,1]))
 
 # 2️⃣ Selection Sort
-# def selection_sort(arr):
-#     for i in range(len(arr)):
-#         min_idx = i
-#         for j in range(i+1, len(arr)):
-#             if arr[j] < arr[min_idx]:
-#                 min_idx = j
-#         arr[i], arr[min_idx] = arr[min_idx], arr[i]
-#     return arr
+def selection_sort(arr):
+    for i in range(len(arr)):
+        min_idx = i
+        for j in range(i+1, len(arr)):
+            if arr[j] < arr[min_idx]:
+                min_idx = j
+        arr[i], arr[min_idx] = arr[min_idx], arr[i]
+    return arr
 
 # 3️⃣ Insertion Sort
 def insertion_sort(arr):
