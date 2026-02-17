@@ -57,3 +57,13 @@ with open("demo.txt", "r") as f1:
         f2.write(f1.read())
 
 print("File copied successfully.")
+
+
+
+🔵 8. File Exists Check
+import os
+
+if os.path.exists("demo.txt"):
+    print("File exists")
+else:
+    print("File not found")
