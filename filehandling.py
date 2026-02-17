@@ -12,3 +12,12 @@ f = open("demo.txt", "r")
 data = f.read()
 print(data)
 f.close()
+
+
+
+🟢 3. Append Data (Add without delete)
+f = open("demo.txt", "a")
+f.write("\nThis line is appended.")
+f.close()
+
+print("Data appended.")
