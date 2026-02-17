@@ -40,3 +40,11 @@ f.close()
 
 with open("demo.txt", "r") as f:
     print(f.read())
+
+
+
+🟡 6. Count Words in File
+with open("demo.txt", "r") as f:
+    data = f.read()
+    words = data.split()
+    print("Total words:", len(words))
