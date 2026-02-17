@@ -15,7 +15,7 @@ f.close()
 
 
 
-🟢 3. Append Data (Add without delete)
+# 🟢 3. Append Data (Add without delete)
 f = open("demo.txt", "a")
 f.write("\nThis line is appended.")
 f.close()
@@ -24,7 +24,7 @@ print("Data appended.")
 
 
 
-🟢 4. Read Line by Line
+# 🟢 4. Read Line by Line
 f = open("demo.txt", "r")
 
 for line in f:
