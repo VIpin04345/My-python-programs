@@ -34,16 +34,16 @@ f.close()
 
 
 
-🟡 5. Using with (Best Practice)
+# 🟡 5. Using with (Best Practice)
 
-👉 Automatically file close ho jata hai.
+# 👉 Automatically file close ho jata hai.
 
 with open("demo.txt", "r") as f:
     print(f.read())
 
 
 
-🟡 6. Count Words in File
+# 🟡 6. Count Words in File
 with open("demo.txt", "r") as f:
     data = f.read()
     words = data.split()
@@ -51,7 +51,7 @@ with open("demo.txt", "r") as f:
 
 
 
-🟡 7. Copy File Content
+# 🟡 7. Copy File Content
 with open("demo.txt", "r") as f1:
     with open("copy.txt", "w") as f2:
         f2.write(f1.read())
