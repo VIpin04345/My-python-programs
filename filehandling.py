@@ -48,3 +48,12 @@ with open("demo.txt", "r") as f:
     data = f.read()
     words = data.split()
     print("Total words:", len(words))
+
+
+
+🟡 7. Copy File Content
+with open("demo.txt", "r") as f1:
+    with open("copy.txt", "w") as f2:
+        f2.write(f1.read())
+
+print("File copied successfully.")
