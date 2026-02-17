@@ -21,3 +21,13 @@ f.write("\nThis line is appended.")
 f.close()
 
 print("Data appended.")
+
+
+
+🟢 4. Read Line by Line
+f = open("demo.txt", "r")
+
+for line in f:
+    print(line.strip())
+
+f.close()
