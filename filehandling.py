@@ -31,3 +31,12 @@ for line in f:
     print(line.strip())
 
 f.close()
+
+
+
+🟡 5. Using with (Best Practice)
+
+👉 Automatically file close ho jata hai.
+
+with open("demo.txt", "r") as f:
+    print(f.read())
