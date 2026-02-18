@@ -6,6 +6,8 @@ f.close()
 print("File created and data written.")
 
 # 🟢 2. File Read Program
+
+
 f = open("demo.txt", "r")
 data = f.read()
 print(data)
