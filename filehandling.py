@@ -18,8 +18,6 @@ f.close()
 
 print("Data appended.")
 
-
-
 # 🟢 4. Read Line by Line
 f = open("demo.txt", "r")
 
