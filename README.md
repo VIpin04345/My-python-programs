@@ -27,6 +27,7 @@ Perfect for:
 
 # ⚙️ Requirements
 
+
 * Python 3.8+
 * Any code editor
    * VS Code
