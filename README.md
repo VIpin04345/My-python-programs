@@ -27,7 +27,6 @@ This repository contains:
 
 # ⚙️ Requirements
 
-
 * Python 3.8+
 * Any code editor
    * VS Code
