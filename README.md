@@ -17,7 +17,7 @@ This repository contains:
 
 * Code written with clean logic and comments
 
-Perfect for:
+* Perfect for:
 
 * Students 👨‍🎓
 
