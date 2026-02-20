@@ -31,3 +31,13 @@ try:
     print(f.read())
 except FileNotFoundError:
     print("File not found!")
+
+
+# 5️⃣ Finally Block
+try:
+    f = open("data.txt", "r")
+    print(f.read())
+except:
+    print("Some error occurred")
+finally:
+    print("File operation completed")
