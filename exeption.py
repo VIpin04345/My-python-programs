@@ -60,3 +60,14 @@ try:
     print("Eligible to vote")
 except Exception as e:
     print("Error:", e)
+
+# 8️⃣ Nested Try
+try:
+    num = int(input("Enter number: "))
+    try:
+        result = 10 / num
+        print("Result:", result)
+    except ZeroDivisionError:
+        print("Cannot divide by zero")
+except ValueError:
+    print("Invalid input")
