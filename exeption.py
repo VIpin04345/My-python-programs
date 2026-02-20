@@ -51,3 +51,12 @@ try:
     print("Age:", age)
 except ValueError as e:
     print("Error:", e)
+
+# 7️⃣ Raise for Voting
+try:
+    age = int(input("Enter age: "))
+    if age < 18:
+        raise Exception("Not eligible to vote")
+    print("Eligible to vote")
+except Exception as e:
+    print("Error:", e)
