@@ -71,3 +71,13 @@ try:
         print("Cannot divide by zero")
 except ValueError:
     print("Invalid input")
+
+
+# 9️⃣ TypeError
+def add(a, b):
+    try:
+        return a + b
+    except TypeError:
+        return "Both inputs must be numbers"
+
+print(add(10, "5"))
