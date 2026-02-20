@@ -14,3 +14,13 @@ try:
     print("You entered:", num)
 except ValueError:
     print("Error: Please enter a valid integer")
+
+# 3️⃣ Multiple Exceptions
+try:
+    lst = [10, 20, 30]
+    index = int(input("Enter index: "))
+    print(lst[index])
+except ValueError:
+    print("Invalid input! Enter integer index.")
+except IndexError:
+    print("Index out of range!")
