@@ -81,3 +81,10 @@ def add(a, b):
         return "Both inputs must be numbers"
 
 print(add(10, "5"))
+
+# 🔟 Dictionary KeyError
+try:
+    d = {"name": "Shubh", "age": 21}
+    print(d["city"])
+except KeyError:
+    print("Key not found in dictionary")
