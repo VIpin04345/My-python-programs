@@ -24,3 +24,10 @@ except ValueError:
     print("Invalid input! Enter integer index.")
 except IndexError:
     print("Index out of range!")
+
+# 4️⃣ FileNotFoundError
+try:
+    f = open("data.txt", "r")
+    print(f.read())
+except FileNotFoundError:
+    print("File not found!")
