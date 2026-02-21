@@ -92,16 +92,18 @@ except KeyError:
 
 
 # 1️⃣1️⃣ Custom Exception Class
-# class InvalidPasswordError(Exception):
-#     pass
+    
+class InvalidPasswordError(Exception):
+    pass
 
-# try:
-#     password = input("Enter password: ")
-#     if len(password) < 8:
-#         raise InvalidPasswordError("Password too short")
-#     print("Password accepted")
-# except InvalidPasswordError as e:
-#     print("Error:", e)
+try:
+    password = input("Enter password: ")
+    if len(password) < 8:
+        raise InvalidPasswordError("Password too short")
+    print("Password accepted")
+except InvalidPasswordError as e:
+    print("Error:", e)
+    
 # 1️⃣2️⃣ Bank Withdrawal
 # class InsufficientBalance(Exception):
 #     pass
