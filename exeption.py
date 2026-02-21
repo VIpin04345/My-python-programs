@@ -203,23 +203,23 @@ while attempts < 3:
     except InvalidPIN as e:
         print(e)
 
-# if attempts == 3:
-#     print("Account blocked")
+if attempts == 3:
+    print("Account blocked")
 # 2️⃣0️⃣ API Simulation
-# import random
+import random
 
-# try:
-#     error = random.choice(["connection", "timeout", "none"])
-#     if error == "connection":
-#         raise ConnectionError("Connection failed")
-#     elif error == "timeout":
-#         raise TimeoutError("Request timed out")
-#     else:
-#         print("API call successful")
-# except ConnectionError as e:
-#     print("Error:", e)
-# except TimeoutError as e:
-#     print("Error:", e)
-# except Exception as e:
-#     print("General Error:", e)
+try:
+    error = random.choice(["connection", "timeout", "none"])
+    if error == "connection":
+        raise ConnectionError("Connection failed")
+    elif error == "timeout":
+        raise TimeoutError("Request timed out")
+    else:
+        print("API call successful")
+except ConnectionError as e:
+    print("Error:", e)
+except TimeoutError as e:
+    print("Error:", e)
+except Exception as e:
+    print("General Error:", e)
 
