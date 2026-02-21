@@ -162,15 +162,18 @@ for num in lst:
         print("Skipped division by zero")
 
 # 1️⃣7️⃣ Empty File Check
-# try:
-#     with open("data.txt", "r") as f:
-#         content = f.read()
-#         if not content:
-#             raise Exception("File is empty")
-#         print(content)
-# except Exception as e:
-#     print("Error:", e)
+
+try:
+    with open("data.txt", "r") as f:
+        content = f.read()
+        if not content:
+            raise Exception("File is empty")
+        print(content)
+except Exception as e:
+    print("Error:", e)
+
 # 1️⃣8️⃣ Age Validation Function
+
 # def validate_age(age):
 #     if age <= 0 or age >= 120:
 #         raise ValueError("Invalid age")
