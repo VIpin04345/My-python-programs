@@ -134,17 +134,19 @@ for i in range(3):
         print(e)
         
 # 1️⃣4️⃣ Login System
-# class LoginError(Exception):
-#     pass
 
-# try:
-#     username = input("Username: ")
-#     password = input("Password: ")
-#     if username != "admin" or password != "1234":
-#         raise LoginError("Invalid credentials")
-#     print("Login successful")
-# except LoginError as e:
-#     print("Error:", e)
+class LoginError(Exception):
+    pass
+
+try:
+    username = input("Username: ")
+    password = input("Password: ")
+    if username != "admin" or password != "1234":
+        raise LoginError("Invalid credentials")
+    print("Login successful")
+except LoginError as e:
+    print("Error:", e)
+
 # 1️⃣5️⃣ Import Error
 # try:
 #     import nonexistingmodule
