@@ -105,19 +105,20 @@ except InvalidPasswordError as e:
     print("Error:", e)
     
 # 1️⃣2️⃣ Bank Withdrawal
-# class InsufficientBalance(Exception):
-#     pass
 
-# balance = 5000
+class InsufficientBalance(Exception):
+    pass
 
-# try:
-#     amount = int(input("Enter withdrawal amount: "))
-#     if amount > balance:
-#         raise InsufficientBalance("Not enough balance")
-#     balance -= amount
-#     print("Remaining balance:", balance)
-# except InsufficientBalance as e:
-#     print("Error:", e)
+balance = 5000
+
+try:
+    amount = int(input("Enter withdrawal amount: "))
+    if amount > balance:
+        raise InsufficientBalance("Not enough balance")
+    balance -= amount
+    print("Remaining balance:", balance)
+except InsufficientBalance as e:
+    print("Error:", e)
 # 1️⃣3️⃣ Retry Mechanism
 # correct = 10
 # for i in range(3):
