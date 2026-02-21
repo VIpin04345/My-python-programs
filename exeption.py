@@ -183,23 +183,25 @@ try:
     print(validate_age(150))
 except ValueError as e:
     print("Error:", e)
+
+
 # 1️⃣9️⃣ ATM PIN System
-# class InvalidPIN(Exception):
-#     pass
+    
+class InvalidPIN(Exception):
+    pass
+correct_pin = "1234"
+attempts = 0
 
-# correct_pin = "1234"
-# attempts = 0
-
-# while attempts < 3:
-#     try:
-#         pin = input("Enter PIN: ")
-#         if pin != correct_pin:
-#             attempts += 1
-#             raise InvalidPIN("Wrong PIN")
-#         print("Access granted")
-#         break
-#     except InvalidPIN as e:
-#         print(e)
+while attempts < 3:
+    try:
+        pin = input("Enter PIN: ")
+        if pin != correct_pin:
+            attempts += 1
+            raise InvalidPIN("Wrong PIN")
+        print("Access granted")
+        break
+    except InvalidPIN as e:
+        print(e)
 
 # if attempts == 3:
 #     print("Account blocked")
