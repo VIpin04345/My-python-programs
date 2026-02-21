@@ -148,17 +148,19 @@ except LoginError as e:
     print("Error:", e)
 
 # 1️⃣5️⃣ Import Error
-# try:
-#     import nonexistingmodule
-# except ImportError:
-#     print("Module not found")
-# 1️⃣6️⃣ Division List
-# lst = [10, 20, 0, 40]
-# for num in lst:
-#     try:
-#         print(100 / num)
-#     except ZeroDivisionError:
-#         print("Skipped division by zero")
+
+try:
+    import nonexistingmodule
+except ImportError:
+    print("Module not found")
+1️⃣6️⃣ Division List
+lst = [10, 20, 0, 40]
+for num in lst:
+    try:
+        print(100 / num)
+    except ZeroDivisionError:
+        print("Skipped division by zero")
+
 # 1️⃣7️⃣ Empty File Check
 # try:
 #     with open("data.txt", "r") as f:
