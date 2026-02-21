@@ -174,15 +174,15 @@ except Exception as e:
 
 # 1️⃣8️⃣ Age Validation Function
 
-# def validate_age(age):
-#     if age <= 0 or age >= 120:
-#         raise ValueError("Invalid age")
-#     return "Valid age"
+def validate_age(age):
+    if age <= 0 or age >= 120:
+        raise ValueError("Invalid age")
+    return "Valid age"
 
-# try:
-#     print(validate_age(150))
-# except ValueError as e:
-#     print("Error:", e)
+try:
+    print(validate_age(150))
+except ValueError as e:
+    print("Error:", e)
 # 1️⃣9️⃣ ATM PIN System
 # class InvalidPIN(Exception):
 #     pass
