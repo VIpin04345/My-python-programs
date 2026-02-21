@@ -119,17 +119,20 @@ try:
     print("Remaining balance:", balance)
 except InsufficientBalance as e:
     print("Error:", e)
+    
 # 1️⃣3️⃣ Retry Mechanism
-# correct = 10
-# for i in range(3):
-#     try:
-#         num = int(input("Guess number: "))
-#         if num != correct:
-#             raise ValueError("Wrong guess")
-#         print("Correct!")
-#         break
-#     except ValueError as e:
-#         print(e)
+
+correct = 10
+for i in range(3):
+    try:
+        num = int(input("Guess number: "))
+        if num != correct:
+            raise ValueError("Wrong guess")
+        print("Correct!")
+        break
+    except ValueError as e:
+        print(e)
+        
 # 1️⃣4️⃣ Login System
 # class LoginError(Exception):
 #     pass
