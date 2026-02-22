@@ -1197,3 +1197,19 @@ e2 = Company("Neha")
 
 print(e1.employee_name, "works at", Company.company_name)
 print(e2.employee_name, "works at", Company.company_name)
+
+
+# 8️ Multiple Inheritance Example
+class Father:
+    def skills(self):
+        print("Gardening")
+
+class Mother:
+    def skills(self):
+        print("Cooking")
+
+class Child(Father, Mother):
+    pass
+
+c = Child()
+c.skills()   # Father ka method call hoga (MRO rule)
