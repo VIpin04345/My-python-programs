@@ -1110,3 +1110,16 @@ class Student:
 
 s1 = Student("Rahul", 21)
 s1.display()
+
+
+class Car:
+    def __init__(self, brand, price):
+        self.brand = brand
+        self.price = price
+
+    def show_details(self):
+        print(f"Car Brand: {self.brand}")
+        print(f"Price: {self.price}")
+
+c1 = Car("Toyota", 800000)
+c1.show_details()
