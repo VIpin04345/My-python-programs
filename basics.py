@@ -1172,3 +1172,15 @@ class Cat:
 
 for animal in (Dog(), Cat()):
     animal.sound()
+
+6️⃣ Method Overriding
+class Animal:
+    def sound(self):
+        print("Animal makes sound")
+
+class Cow(Animal):
+    def sound(self):
+        print("Cow says Moo")
+
+a = Cow()
+a.sound()
