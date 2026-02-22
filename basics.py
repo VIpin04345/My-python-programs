@@ -1097,3 +1097,16 @@ def quick_sort(arr):
     return quick_sort(left) + [pivot] + quick_sort(right)
 
 print(quick_sort([8,3,1,7,0,10,2]))
+
+
+class Student:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def display(self):
+        print("Name:", self.name)
+        print("Age:", self.age)
+
+s1 = Student("Rahul", 21)
+s1.display()
