@@ -1111,7 +1111,7 @@ class Student:
 s1 = Student("Rahul", 21)
 s1.display()
 
-
+# Class aur Object (Basic Example)
 class Car:
     def __init__(self, brand, price):
         self.brand = brand
@@ -1124,7 +1124,7 @@ class Car:
 c1 = Car("Toyota", 800000)
 c1.show_details()
 
-
+# Constructor aur Method Example
 class Person:
     def __init__(self, name):
         self.name = name
@@ -1132,6 +1132,8 @@ class Person:
     def show(self):
         print("Name:", self.name)
 
+
+# Inheritance Example
 class Employee(Person):
     def __init__(self, name, salary):
         super().__init__(name)
@@ -1144,6 +1146,7 @@ e1 = Employee("Amit", 50000)
 e1.show()
 e1.show_salary()
 
+# Encapsulation Example
 class BankAccount:
     def __init__(self, balance):
         self.__balance = balance   # private variable
@@ -1158,7 +1161,7 @@ acc = BankAccount(1000)
 acc.deposit(500)
 print("Balance:", acc.get_balance())
 
-
+#  Polymorphism Example
 class Dog:
     def sound(self):
         print("Dog barks")
