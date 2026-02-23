@@ -103,3 +103,10 @@ for ch in data:
 
 print("Uppercase:", upper)
 print("Lowercase:", lower)
+
+# 🟡 Read First N Lines
+n = 3
+
+with open("demo.txt", "r") as f:
+    for i in range(n):
+        print(f.readline().strip())
