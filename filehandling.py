@@ -87,3 +87,19 @@ with open("demo.txt", "w") as f:
     f.write(new_data)
 
 print("Word replaced successfully.")
+
+# 🟡  Count Uppercase & Lowercase Letters
+with open("demo.txt", "r") as f:
+    data = f.read()
+
+upper = 0
+lower = 0
+
+for ch in data:
+    if ch.isupper():
+        upper += 1
+    elif ch.islower():
+        lower += 1
+
+print("Uppercase:", upper)
+print("Lowercase:", lower)
