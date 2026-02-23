@@ -66,3 +66,12 @@ else:
 
 
 # -------------------------------------------------------------------------------------------------------
+
+# 🟢  Count Specific Word in File
+word_to_find = "Python"
+
+with open("demo.txt", "r") as f:
+    data = f.read()
+    count = data.count(word_to_find)
+
+print(f"'{word_to_find}' found {count} times.")
