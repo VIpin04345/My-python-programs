@@ -75,3 +75,15 @@ with open("demo.txt", "r") as f:
     count = data.count(word_to_find)
 
 print(f"'{word_to_find}' found {count} times.")
+
+
+# 🟢  Replace Word in File
+with open("demo.txt", "r") as f:
+    data = f.read()
+
+new_data = data.replace("Python", "Java")
+
+with open("demo.txt", "w") as f:
+    f.write(new_data)
+
+print("Word replaced successfully.")
