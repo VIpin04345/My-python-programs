@@ -132,3 +132,12 @@ with open("clean.txt", "w") as f:
             f.write(line)
 
 print("Blank lines removed.")
+
+# 🔴  Store Student Data (Append Mode)
+name = input("Enter name: ")
+marks = input("Enter marks: ")
+
+with open("students.txt", "a") as f:
+    f.write(f"{name} - {marks}\n")
+
+print("Student data saved.")
