@@ -120,3 +120,15 @@ with open("merged.txt", "w") as f:
     f.write(data1 + "\n" + data2)
 
 print("Files merged successfully.")
+
+
+# 🔵  Remove Blank Lines from File
+with open("demo.txt", "r") as f:
+    lines = f.readlines()
+
+with open("clean.txt", "w") as f:
+    for line in lines:
+        if line.strip():
+            f.write(line)
+
+print("Blank lines removed.")
