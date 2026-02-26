@@ -399,6 +399,20 @@ str="shubham"
 for i in str:
     print(i+&)
 
+def first_non_repeating(s):
+    for ch in s:
+        if s.count(ch) == 1:
+            return ch
+    return None
+
+# Test
+string = "aabbcdde"
+result = first_non_repeating(string)
+
+if result:
+    print("First non-repeating character is:", result)
+else:
+    print("No unique character found")
 
 
 #   LIST   #
