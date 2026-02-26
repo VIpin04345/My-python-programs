@@ -440,6 +440,19 @@ def second_largest(lst):
     
     return second
 
+
+def remove_duplicates(lst):
+    unique = []
+    
+    for item in lst:
+        if item not in unique:
+            unique.append(item)
+    
+    return unique
+
+# Test
+numbers = [1, 2, 2, 3, 4, 3, 5]
+print("After Removing Duplicates:", remove_duplicates(numbers))
 # Test
 numbers = [10, 20, 4, 45, 99]
 print("Second Largest:", second_largest(numbers))
