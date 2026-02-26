@@ -447,6 +447,7 @@ def remove_duplicates(lst):
     return unique
 
 # Test
+
 numbers = [1, 2, 2, 3, 4, 3, 5]
 print("After Removing Duplicates:", remove_duplicates(numbers))
 # Test
