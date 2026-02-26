@@ -18,7 +18,6 @@ print('hello world')
 # python program to find square root of a given number .
 
 
-# (solution with exponentiation)
 
 # num=81
 
