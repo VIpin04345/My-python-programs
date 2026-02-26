@@ -16,9 +16,6 @@ print('the sum of the provided to number is' , sum)
 print('hello world')
 
 # python program to find square root of a given number .
-
-
-
 # num=81
 
 num = int(input("enter a number:-"))
