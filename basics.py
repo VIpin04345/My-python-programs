@@ -428,6 +428,21 @@ print("Are Anagrams:", is_anagram(s1, s2))
 
 #   LIST   #
 
+def second_largest(lst):
+    largest = second = float('-inf')
+    
+    for num in lst:
+        if num > largest:
+            second = largest
+            largest = num
+        elif num > second and num != largest:
+            second = num
+    
+    return second
+
+# Test
+numbers = [10, 20, 4, 45, 99]
+print("Second Largest:", second_largest(numbers))
 
 l1=['radha','krishna','ujala']
 print(l1)
