@@ -522,9 +522,6 @@ while n>0:
     n-=1
 print(fact)
 
-
-
-
 # write a program to check weather the given program is prime or not.
 
 n= int(input('enter a number:-'))
@@ -538,9 +535,6 @@ if count==2:
     print('prime')
 else:
     print('not prime')
-
-
-
 
 
  # write a program to check weather the number is palindrom or not.
