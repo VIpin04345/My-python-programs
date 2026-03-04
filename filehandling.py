@@ -121,6 +121,13 @@ with open("merged.txt", "w") as f:
 
 print("Files merged successfully.")
 
+# 🟢 1. Basic – File Create & Write
+f = open("demo.txt", "w")
+f.write("Hello, this is my first file handling program.")
+f.close()
+
+print("File created and data written.")
+
 
 # 🔵  Remove Blank Lines from File
 with open("demo.txt", "r") as f:
