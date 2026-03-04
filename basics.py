@@ -1202,6 +1202,19 @@ e1 = Employee("Amit", 50000)
 e1.show()
 e1.show_salary()
 
+
+class Company:
+    company_name = "TCS"   # class variable
+
+    def __init__(self, employee_name):
+        self.employee_name = employee_name
+
+e1 = Company("Ravi")
+e2 = Company("Neha")
+
+print(e1.employee_name, "works at", Company.company_name)
+print(e2.employee_name, "works at", Company.
+
 # Encapsulation Example
 class BankAccount:
     def __init__(self, balance):
