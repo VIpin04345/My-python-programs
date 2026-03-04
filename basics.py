@@ -385,6 +385,10 @@ print(name.isupper())
 str='shuBHam'
 print(str.islower())
 
+name='shubham73737'
+name1='VIPIN63637'
+print(name.isalnum())
+print(name1.isalnum())
 
 str='shubham'
 print(str.islower())
