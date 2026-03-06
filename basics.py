@@ -215,6 +215,22 @@ print(sum)
 # write a program to print only even number between 1 to n.
 
 
+n = int(input("enter a number:"))
+sum = 0
+i = 1
+while i <= n:
+    sum = sum + i**2
+    i += 1
+print(sum)
+
+
+n = int(input("enter a number:"))
+sum = 0
+i = 1
+for i in range(n, i - 1, -1):
+    sum += i**2
+    i += 1
+print(sum)
 n = int(input("enter a number:-"))
 i = 1
 while i <= n:
