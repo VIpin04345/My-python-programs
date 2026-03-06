@@ -30,7 +30,12 @@ num = int(input("enter a number:-"))
 sr = num ** (1/2)  or (0.5)
 print("the square root of the given number is ", sr)
 
-
+# write a program to find area of ractangle
+ 
+height=float(input('enter the hight of trangle'))
+width=float(input('enter the width of the trangle'))
+area=(1/2)*height*width
+print('the area of ractangle is ',area)
 # (solution using math module)
 
 import math
