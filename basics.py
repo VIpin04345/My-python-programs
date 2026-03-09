@@ -396,6 +396,11 @@ print(name.strip())
 name='shUBhaM'
 print(name.capitalize())
 
+
+
+name='shUBhaM'
+print(name.capitalize())
+
 name='ShuBHam'
 print(name.casefold())
 
