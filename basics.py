@@ -370,6 +370,13 @@ print(a==c)
 print(a==b)
 
 
+a='adadada'
+b='adadad'
+c='adadada'
+print(a==c)
+print(a==b)
+
+
 str1='hello world'
 str2='hello python'
 name=str1+str2
