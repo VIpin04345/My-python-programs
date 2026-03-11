@@ -514,6 +514,26 @@ s1 = "listen"
 s2 = "silent"
 
 
+# Test
+string = "aabbcdde"
+result = first_non_repeating(string)
+
+if result:
+    print("First non-repeating character is:", result)
+else:
+    print("No unique character found")
+
+def is_anagram(str1, str2):
+    if sorted(str1) == sorted(str2):
+        return True
+    else:
+        return False
+
+# Test
+s1 = "listen"
+s2 = "silent"
+
+
 
 
 string = "aabbcdde"
