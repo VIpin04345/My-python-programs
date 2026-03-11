@@ -23,6 +23,13 @@ sum=num+num2
 print('the sum of the provided to number is' , sum)
 print('hello world')
 
+
+num=float(input('enter a number '))
+num2=float(input('enter another number'))
+sum=num+num2
+print('the sum of the provided to number is' , sum)
+print('hello world')
+
 # python program to find square root of a given number .
 # num=81
 
