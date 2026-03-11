@@ -144,6 +144,17 @@ for i in range(10, 1 - 1, -1):
     print(i)
 print()
 
+
+i = 10
+while i >= 1:
+    print(i)
+    i -= 1
+print()
+
+for i in range(10, 1 - 1, -1):
+    print(i)
+print()
+
 # write a program to print from n to 1.
 
 
