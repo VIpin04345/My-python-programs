@@ -103,6 +103,17 @@ try:
     print("Password accepted")
 except InvalidPasswordError as e:
     print("Error:", e)
+
+class InvalidPasswordError(Exception):
+    pass
+
+try:
+    password = input("Enter password: ")
+    if len(password) < 8:
+        raise InvalidPasswordError("Password too short")
+    print("Password accepted")
+except InvalidPasswordError as e:
+    print("Error:", e)
     
 # 1️⃣2️⃣ Bank Withdrawal
 
