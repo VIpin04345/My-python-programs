@@ -171,6 +171,15 @@ with open("students.txt", "a") as f:
 
 print("Student data saved.")
 
+
+name = input("Enter name: ")
+marks = input("Enter marks: ")
+
+with open("students.txt", "a") as f:
+    f.write(f"{name} - {marks}\n")
+
+print("Student data saved.")
+
 # 🔴  Read File in Reverse Order
 with open("demo.txt", "r") as f:
     lines = f.readlines()
