@@ -152,6 +152,14 @@ with open("clean.txt", "w") as f:
         if line.strip():
             f.write(line)
 
+with open("demo.txt", "r") as f:
+    lines = f.readlines()
+
+with open("clean.txt", "w") as f:
+    for line in lines:
+        if line.strip():
+            f.write(line)
+
 print("Blank lines removed.")
 
 # 🔴  Store Student Data (Append Mode)
