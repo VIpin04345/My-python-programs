@@ -186,3 +186,10 @@ with open("demo.txt", "r") as f:
 
 for line in reversed(lines):
     print(line.strip())
+
+
+with open("demo.txt", "r") as f:
+    lines = f.readlines()
+
+for line in reversed(lines):
+    print(line.strip())
