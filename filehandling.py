@@ -65,6 +65,14 @@ else:
     print("File not found")
 
 
+import os
+
+if os.path.exists("demo.txt"):
+    print("File exists")
+else:
+    print("File not found")
+
+
 # -------------------------------------------------------------------------------------------------------
 
 # 🟢  Count Specific Word in File
