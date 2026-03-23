@@ -1492,3 +1492,10 @@ for word in words:
     freq[word] = freq.get(word, 0) + 1
 
 print(freq)
+
+
+set1 = {1, 2, 3, 4}
+set2 = {3, 4, 5, 6}
+
+common = set1.intersection(set2)
+print("Common elements:", common)
