@@ -1301,6 +1301,12 @@ def merge_sort(arr):
 
     return arr
 
+
+marks = {"A": 80, "B": 90, "C": 70}
+
+avg = sum(marks.values()) / len(marks)
+print("Average:", avg)
+
 # 5️⃣ Quick Sort
 def quick_sort(arr):
     if len(arr) <= 1:
