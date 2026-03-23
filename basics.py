@@ -1467,3 +1467,10 @@ for ch in s.lower():
         count += 1
 
 print("Vowels:", count)
+
+s = "madam"
+
+if s == s[::-1]:
+    print("Palindrome")
+else:
+    print("Not Palindrome")
