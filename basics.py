@@ -215,6 +215,14 @@ for i in range(n, i - 1, -1):
     i += 1
 print(sum)
 
+
+a = 5
+b = 10
+
+a, b = b, a
+
+print("a:", a)
+print("b:", b)
 # write a program to print sum of cube of 1 to n natural numbers.
 
 
