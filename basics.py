@@ -1442,3 +1442,11 @@ class Child(Father, Mother):
 
 c = Child()
 c.skills()   # Father ka method call hoga (MRO rule)
+
+
+nums = [10, 20, 4, 45, 99]
+
+nums = list(set(nums))  # remove duplicates
+nums.sort()
+
+print("Second largest:", nums[-2])
