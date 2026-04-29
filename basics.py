@@ -108,6 +108,15 @@ root1=(-b-cmath.sqrt(d))/(2*a)
 root2=(-b+cmath.sqrt(d))/(2*a)
 print('the roots are ',root1,root2)
 
+import cmath
+a=int(input('enter a number(a!=0):-'))
+b=int(input('enter a number:-'))
+c=int(input('enter a number:-'))
+d=(b**2 )- (4*a*c)
+root1=(-b-cmath.sqrt(d))/(2*a)
+root2=(-b+cmath.sqrt(d))/(2*a)
+print('the roots are ',root1,root2)
+
 
 # write a program to swap two variables.
 
