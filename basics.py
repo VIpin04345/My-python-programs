@@ -58,6 +58,11 @@ num = int(input("enter a number:-"))
 sr = num ** (1/2)  or (0.5)
 print("the square root of the given number is ", sr)
 
+
+
+num = int(input("enter a number:-"))
+sr = num ** (1/2)  or (0.5)
+print("the square root of the given number is ", sr)
 # write a program to find area of ractangle
  
 height=float(input('enter the hight of trangle'))
