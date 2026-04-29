@@ -19,6 +19,15 @@ temp=var1
 var1=var2
 var2=temp
 print('after sapping',var1,var2)
+
+
+var1=int(input('enter a number'))
+var2=int(input('enter a number'))
+print('before swapping',var1,var2)
+temp=var1
+var1=var2
+var2=temp
+print('after sapping',var1,var2)
 # (solution with user input)
 
 
