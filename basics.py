@@ -69,6 +69,11 @@ height=float(input('enter the hight of trangle'))
 width=float(input('enter the width of the trangle'))
 area=(1/2)*height*width
 print('the area of ractangle is ',area)
+
+height=float(input('enter the hight of trangle'))
+width=float(input('enter the width of the trangle'))
+area=(1/2)*height*width
+print('the area of ractangle is ',area)
 # (solution using math module)
 
 import math
