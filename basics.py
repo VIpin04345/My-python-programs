@@ -215,6 +215,14 @@ for i in range(n, i - 1, -1):
     i += 1
 print(sum)
 
+n = int(input("enter a number:"))
+sum = 0
+i = 1
+for i in range(n, i - 1, -1):
+    sum += i**2
+    i += 1
+print(sum)
+
 
 a = 5
 b = 10
