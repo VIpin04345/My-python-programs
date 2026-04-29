@@ -6,6 +6,11 @@ num2= 40
 sum=num1+num2
 print('the sum of given number is',sum)
 
+num1=30
+num2= 40
+sum=num1+num2
+print('the sum of given number is',sum)
+
 
 var1=int(input('enter a number'))
 var2=int(input('enter a number'))
