@@ -168,6 +168,14 @@ print()
 
 
 n = int(input("enter a number:-"))
+i = 1
+while i <= n:
+    print(i)
+    i += 1
+print()
+
+
+n = int(input("enter a number:-"))
 for i in range(1, n + 1):
     print(i)
 print()
