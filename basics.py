@@ -395,6 +395,10 @@ print(sum)
 str='shubham yadav'
 print(str)
 
+
+str='shubham yadav'
+print(str)
+
 str='shubham yadav'
 print(str[2])
 print(str[10])
